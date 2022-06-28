@@ -30,7 +30,10 @@ function SignUp(props){
 
         <h2>Create An Account</h2>
         <p>Already have an account? <Link to={"/signup/signin"}>Sign In</Link></p>
+        <div>
         <img src="" alt="" />
+        <button></button>
+        </div>
         </div>
         <form onSubmit={submit}>
             <InputTypes onChange={change} className={styles.firstInput} type="text" description="First Name" name="FirstName"/>
